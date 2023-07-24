@@ -1,0 +1,10 @@
+*.obj
+*.exe
+*.dll
+*.pdb
+*.txt
+*.csv
+*.html
+*.key
+*.password
+*.creditcard
