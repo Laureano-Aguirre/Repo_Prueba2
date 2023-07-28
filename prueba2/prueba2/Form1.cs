@@ -9,7 +9,7 @@ namespace prueba2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.BackgroundImage = Image.FromFile(@"images\img-Fondo.png");
+            this.BackgroundImage = Image.FromFile(@"imagenes\img-fondo.png");
         }
     }
 }
