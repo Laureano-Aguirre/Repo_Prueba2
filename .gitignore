@@ -1,4 +1,6 @@
-*.obj
+# Archivos y carpetas generados por Visual Studio y Windows Forms
+bin/
+obj/
 *.exe
 *.dll
 *.pdb
@@ -8,10 +10,29 @@
 *.key
 *.password
 *.creditcard
+*.user
+*.suo
+*.vs/
+*.vshost.exe
+*.vshost.exe.config
+*.csproj.user
+*.manifest
+*.log
+*.cache
+*.DS_Store
 
-# NuGet Packages
+# Archivos y carpetas generados por paquetes NuGet
+packages/
 *.nupkg
-# The packages folder can be ignored because of Package Restore
-**/packages/*
-# except build/, which is used as an MSBuild target.
+*.snupkg
+*.bak
+*.zip
+*.nuspec
+*.config
+*.json
+*.props
+*.targets
+*.xaml
+
+# El paquete "build" de NuGet no debe ser ignorado
 !**/packages/build/
